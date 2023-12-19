@@ -6,6 +6,7 @@ using FullStackAuth_WebAPI.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using System.Web.Providers.Entities;
 
 namespace FullStackAuth_WebAPI.Controllers
 {

@@ -2,12 +2,13 @@
 using FullStackAuth_WebAPI.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Web.Providers.Entities;
 
 namespace FullStackAuth_WebAPI.Data
 {
     public class ApplicationDbContext : IdentityDbContext<User>
     {
-        public DbSet<Car> Cars { get; set; }
+        public DbSet<Book> Books { get; set; }
 
         public ApplicationDbContext(DbContextOptions options)
     : base(options)
