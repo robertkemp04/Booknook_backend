@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FullStackAuth_WebAPI.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 
 namespace FullStackAuth_WebAPI.DataTransferObjects
 {
-    public class BookDetailsDto
+    public class BookDetailsDto : Favorite
     {
         public int Id {  get; set; }
         public string BookId { get; set; }

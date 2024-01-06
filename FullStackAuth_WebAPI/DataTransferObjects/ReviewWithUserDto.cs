@@ -1,6 +1,8 @@
-﻿namespace FullStackAuth_WebAPI.DataTransferObjects
+﻿using FullStackAuth_WebAPI.Models;
+
+namespace FullStackAuth_WebAPI.DataTransferObjects
 {
-    public class ReviewWithUserDto
+    public class ReviewWithUserDto : Review
     {
         public int Id { get; set; }
         public string BookId { get; set; }
